@@ -1,0 +1,42 @@
+/* Style the page layout */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the headings */
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Style the profile picture */
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Style the contact information */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li:before {
+    content: "\2022"; /* Add bullet points */
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
